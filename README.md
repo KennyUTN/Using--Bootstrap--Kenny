@@ -1,8 +1,8 @@
 # Responsive Design
 This project's purpose is to recreate the webpage https://nextweek.com focusing on learning the basics of the bootstrap framework
-![screenshot](media/screen.png)
+![screenshot](img/screen.png)
 
-![screenshot](media/screen2.png)
+![screenshot](img/screen2.png)
 
 
 
@@ -11,7 +11,7 @@ This project's purpose is to recreate the webpage https://nextweek.com focusing 
 - HTML5, CSS3, BOOTSTRAP
 
 ## Live Demo
-https://rawcdn.githack.com/KennyUTN/Using--Bootstrap--Kenny/workbranch/index.html
+https://rawcdn.githack.com/KennyUTN/Using--Bootstrap--Kenny/b4a894dd4fc0d39a87478e567c930b1a6e0fc012/index.html
 ## Author
 
 👤 **Juan Ignacio Asis**
