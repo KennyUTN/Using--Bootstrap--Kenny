@@ -19,37 +19,55 @@
 
       <div class="row w-100 m-0 header-row1 main-bg justify-content-start justify-content-md-center">
 
-        <div class="header-weather d-none d-sm-none d-md-none d-lg-flex justify-content-center py-2 pl-3 pr-0 col-3 d-flex flex-column flex-shrink-1 ">
-          <div class="weather d-none d-xs-none d-sm-none d-lg-flex  mb-2 mt-1 d-flex text-white font-weight-bold">
-            <img src="./img/weather.png" alt="" class="d-none d-sm-none d-lg-flex img-fluid">
-            <p class="ml-2 d-none  d-lg-flex">1000°</p>
-            <p class="ml-1 d-none d-lg-flex text-nowrap">Córdoba, Argentina</p>
+        <div class="header-weather d-none d-xl-block justify-content-center py-2 pl-3 pr-0 col-3 col-lg-1 col-xl-3 flex-column flex-shrink-1 ">
+          <div class="weather mb-2 mt-1 d-flex text-white font-weight-bold">
+            <img src="./img/weather.png" alt="" class="img-fluid">
+            <p class="ml-2 ">1000°</p>
+            <p class="ml-1 text-nowrap">Córdoba, Argentina</p>
           </div>
 
-          <div class="d-none d-lg-flex text-white text-nowrap">
+          <div class="d-none d-xl-block text-white text-nowrap">
             <p>Thu, Nov 19, 2020</p>
           </div>
         </div>
 
 
-        <div class="header-logo  col-5 ml-sm-4 col-sm-5 ml-md-2 py-lg-2 col-md-6 col-lg-5 d-flex container-fluid justify-content-start justify-content-lg-center  ">
-        <!-- <div class="col-lg-5 col-md-6 col-sm-5 col-auto d-flex justify-content-lg-center "> -->
+        <div class="header-logo col-5 col-sm-6  justify-content-start justify-content-lg-center d-flex  ">
+          <!-- <div class="col-lg-5 col-md-6 col-sm-5 col-auto d-flex justify-content-lg-center "> -->
 
           <img src="./img/logo.png" alt="" class="img-fluid">
         </div>
 
 
+        <div class="header-buttons-RIGHTSIDE p-0 m-0 col-5  col-lg-5 col-xl-3 d-flex justify-content-around align-items-center">
 
-        <div class="header-buttons col-3 justify-content-end d-flex align-items-end pb-3">
-          <a href="#" class="font-weight-bold  flex-shrink-1 d-none d-sm-block justify-self-end mx-2 my-3  btn--login hover-none border-none">LOGIN</a>
-          <a class="btn rounded-pill font-weight-bold  justify-self-end btn--subscribe d-block mx-2 my-3 py-0 text-white hover-none">SUBSCRIPTION OFFERS</a>
+
+          <div class="d-flex">
+
+            <div class="LOGIN TEXTO header-buttons  align-items-center">
+              <a href="#" class="font-weight-bold d-none d-lg-flex flex-shrink-1 mr-3 btn--login hover-none border-none">LOGIN</a>
+            </div>
+
+            <div class="col-3 ICONO header-buttons d-lg-none mr-3">
+
+              <i class="loginicon pt-1 fa fa-user-circle-o text-white"></i>
+
+            </div>
+
+          </div>
+
+          <div class="header-buttons p-0 d-none ml-2 col-3 col-md-3 justify-content-end d-flex align-items-center">
+            <a class="btn rounded-pill font-weight-bold  btn--subscribe d-none d-sm-flex  mx-md-2 my-3 py-0 text-white hover-none">SUBSCRIPTION</a>
+            <a href="" class="d-sm-none fa fa-bars text-white" aria-hidden="true"></a>
+          </div>
         </div>
+
       </div>
 
 
       <div class="header-row2 d-none d-xs-none d-sm-none d-md-none d-lg-flex flex-shrink-1 position-relative row w-100 m-auto  white-bg">
         <div class="header-row2_links flex-shrink-1 d-flex  position-relative">
-          <ul class="list-unstyled list-group list-group-horizontal d-flex  m-auto pl-2 w-100">
+          <ul class="list-unstyled list-group list-group-horizontal d-flex  m-auto pl-2 w-90">
             <li class="flex-fill"><a href="#">ARG</a></li>
             <li class="flex-fill"><a href="#">World</a></li>
             <li class="flex-fill"><a href="#">Business</a></li>
@@ -62,7 +80,7 @@
             <li class="flex-fill"><a href="#">Vantage</a></li>
             <li class="flex-fill border-0 mr-4"><a href="#">Weather</a></li>
             <li class="flex-fill border-0">
-              <div class="header-row2_search d-inline-flex align-items-center justify-content-end ">
+              <div class="d-lg-none d-xl-flex flex-fill header-row2_search  align-items-center justify-content-end ">
                 <p class="">SEARCH</p>
                 <img class="img-fluid" src="https://img.icons8.com/ios/50/000000/search-more.png" alt="" />
               </div>
