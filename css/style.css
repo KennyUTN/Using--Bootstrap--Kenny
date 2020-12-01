@@ -63,14 +63,12 @@ footer {
 
 .btn--login {
   color: white;
-  font-size: large;
 }
 
 .btn--subscribe {
   background-color: #000001;
-  font-size: 18px;
-  border-radius: 0.5rem;
-  height: 30px;
+  white-space:nowrap;
+  text-align:center;
 }
 
 .header-row1 {
@@ -298,15 +296,28 @@ footer {
     font-size: 16px;
   }
 
+
   .header-logo > img {
-    max-width: 51vh;
-    height: auto;
-  }
+  
+    object-fit:scale-down;
+}
 
   .fixer {
     display: none;
   }
 }
+
+/* @media screen and (max-width: 699px) {
+.header-logo > img {
+   position:absolute;
+   right:85%;
+   align-self:center;
+}
+
+.btn--login{
+  display:none;
+}
+} */
 
 .news--magazine .card--img {
   position: relative;
