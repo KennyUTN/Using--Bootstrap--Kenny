@@ -352,6 +352,13 @@ footer {
   .news-letter img {
     height: 40vh;
   }
+
+  .header-logo > img {
+    max-width: 80vh;
+    height: 4rem;
+    margin-right: 7rem;
+  }
+
 }
 
 @media screen and (max-width: 767px) {
