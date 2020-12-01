@@ -87,9 +87,10 @@ footer {
 }
 
 .header-logo > img {
-  height: 90%;
+  object-fit:scale-down;
+  /* height: 90%;
   max-width: 90%;
-  height: auto;
+  height: auto; */
 }
 
 .header-row2 {
@@ -334,9 +335,6 @@ footer {
   height: 320px;
 }
 
-.news--debate--content-header {
-  font-size: 1.7rem;
-}
 
 .news-world-stories .img-cont > img {
   min-width: 100px;
@@ -353,11 +351,11 @@ footer {
     height: 40vh;
   }
 
-  .header-logo > img {
+  /* .header-logo > img {
     max-width: 80vh;
     height: 4rem;
     margin-right: 7rem;
-  }
+  } */
 
 }
 
