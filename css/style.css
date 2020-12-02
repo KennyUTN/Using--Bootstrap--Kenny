@@ -84,6 +84,7 @@ footer {
   height: 22px;
 }
 
+
 .header-logo > img {
   object-fit:scale-down;
   /* height: 90%;
@@ -305,9 +306,13 @@ font-size:2rem;
     width:10em;
     height:auto;
   }
+  /* .header-logo {
+    width:10em;
+    height:auto;
+  } */
   .header-logo > img {
-
-    width:5em;
+  
+    width:10em;
     height: auto;
 
 }
@@ -383,16 +388,11 @@ font-size:2rem;
   .header-logo > img {
 
     height:auto;
-    width:11em;
+    width:20em;
 
   }
 
 
-  /* .header-logo > img {
-    max-width: 80vh;
-    height: 4rem;
-    margin-right: 7rem;
-  } */
 
 }
 
