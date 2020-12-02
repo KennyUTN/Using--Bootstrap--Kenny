@@ -4,6 +4,8 @@ This project's purpose is to recreate the webpage https://nextweek.com focusing 
 
 ![screenshot](img/screen2.png)
 
+![screenshot](img/screen3.png)
+
 
 
 ## Built With
