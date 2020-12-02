@@ -66,7 +66,7 @@ footer {
 }
 
 .btn--subscribe {
-  background-color: #000001;
+  background-color: #F1C40F;
   white-space:nowrap;
   text-align:center;
 }
@@ -311,7 +311,7 @@ font-size:2rem;
     height:auto;
   } */
   .header-logo > img {
-  
+
     width:10em;
     height: auto;
 
