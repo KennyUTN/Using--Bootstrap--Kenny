@@ -36,7 +36,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
--I focused a lot of time on learning the basics of bootstrap and didn't pay much attention or wasted much time in trying to do a 100% lookalike recreation.
+- Advanced knowledge of bootstrap was gained
 
 ## 📝 License
 
