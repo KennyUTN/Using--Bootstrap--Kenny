@@ -1,5 +1,5 @@
 # Responsive Design
-This project's purpose is to recreate the webpage https://www.nextweb.com focusing on learning the basics of the bootstrap framework
+This project's purpose is to recreate the webpage https://www.newsweek.com focusing on learning the basics of the bootstrap framework
 
 
 ![screenshot](img/screen.png)
