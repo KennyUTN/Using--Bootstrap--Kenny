@@ -1,0 +1,1270 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>NewsWeek</title>
+</head>
+
+<body>
+
+  <header class="container-fluid p-0 d-lg-block">
+    <div class="header--container mx-auto ">
+
+
+      <div class="row w-100 m-0 header-row1 main-bg justify-content-start justify-content-md-center">
+
+        <div class="header-weather d-none d-xl-block justify-content-center py-2 pl-3 pr-0 col-3 col-lg-1 col-xl-3 flex-column flex-shrink-1 ">
+          <div class="weather mb-2 mt-1 d-flex text-white font-weight-bold">
+            <img src="./img/weather.png" alt="" class="img-fluid">
+            <p class="ml-2 ">1000°</p>
+            <p class="ml-1 text-nowrap">Córdoba, Argentina</p>
+          </div>
+
+          <div class="d-none d-xl-block text-white text-nowrap">
+            <p>Thu, Nov 19, 2020</p>
+          </div>
+        </div>
+
+
+        <div class="header-logo col-8 col-sm-6  justify-content-start justify-content-lg-center d-flex  ">
+
+
+          <img src="./img/logo.png" alt="" class="img-fluid">
+        </div>
+
+
+        <div class="header-buttons-RIGHTSIDE p-0 m-0 col-3 col-sm-5  col-lg-5 col-xl-3 d-flex justify-content-around align-items-center">
+
+
+          <div class="d-flex">
+
+            <div class="header-buttons  align-items-center">
+              <a href="#" class="font-weight-bold d-none d-lg-flex flex-shrink-1 mr-3 btn--login hover-none border-none">LOGIN</a>
+            </div>
+
+            <div class="col-3 ICONO header-buttons d-lg-none mr-3">
+
+              <i class="loginicon pt-1 fa fa-user-circle-o text-white"></i>
+
+            </div>
+
+          </div>
+
+          <div class="header-buttons p-0 d-none ml-2 col-3 col-md-3 justify-content-end d-flex align-items-center">
+            <a class="btn rounded-pill font-weight-bold  btn--subscribe d-none d-sm-block  mx-md-2 my-3 py-0 text-black hover-none">SUBSCRIBE</a>
+            <a href="" class="d-flex fa fa-bars text-white" aria-hidden="true"></a>
+
+          </div>
+        </div>
+
+      </div>
+
+
+      <div class="header-row2 d-none d-xs-none d-sm-none d-md-none d-lg-flex flex-shrink-1 position-relative row w-100 m-auto  white-bg">
+        <div class="header-row2_links flex-shrink-1 d-flex  position-relative">
+          <ul class="list-unstyled list-group list-group-horizontal d-flex  m-auto pl-2 w-90">
+            <li class="flex-fill"><a href="#">ARG</a></li>
+            <li class="flex-fill"><a href="#">World</a></li>
+            <li class="flex-fill"><a href="#">Business</a></li>
+            <li class="flex-fill"><a href="#">Tech</a></li>
+            <li class="flex-fill"><a href="#">Culture</a></li>
+            <li class="flex-fill"><a href="#">Newsgeek</a></li>
+            <li class="flex-fill"><a href="#">Sports</a></li>
+            <li class="flex-fill"><a href="#">Health</a></li>
+            <li class="flex-fill"><a href="#">Debate</a></li>
+            <li class="flex-fill"><a href="#">Vantage</a></li>
+            <li class="flex-fill border-0 mr-4"><a href="#">Weather</a></li>
+            <li class="flex-fill border-0">
+              <div class="d-lg-none d-xl-flex flex-fill header-row2_search  align-items-center justify-content-end ">
+                <p class="">SEARCH</p>
+                <img class="img-fluid" src="https://img.icons8.com/ios/50/000000/search-more.png" alt="" />
+              </div>
+            </li>
+          </ul>
+
+        </div>
+
+      </div>
+
+
+
+      <div class="header-row3 row d-none d-xs-none d-sm-none d-md-none d-lg-flex w-100 m-0 pl-2  align-items-center white-bg">
+        <ul class="list-unstyled list-group list-group-horizontal ">
+          <li><a class="text-dark" href="#">TRENDING</a></li>
+          <li><a class="text-dark" href="#">JOE BIDEN</a></li>
+          <li><a class="text-dark" href="#">DONALD TRUMP</a></li>
+          <li><a class="text-dark" href="#">COVID19</a></li>
+          <li><a class="text-dark" href="#">CHINA</a></li>
+          <li><a class="text-dark" href="#">STIMULUS PACKAGE</a></li>
+        </ul>
+      </div>
+    </div>
+
+  </header>
+
+
+
+  <main class="container-fluid mx-auto mt-5 mt-lg-0 white-bg pr-0">
+    <div class="row main-news pl-0 pl-md-2 mx-0 px-sm-0 mx-sm-0 w-100">
+      <div class="main--column-1 col-lg-4 col-md-5 col-sm-12 order-2 order-md-0 pl-0 px-sm-0 mx-sm-0 ">
+        <div class="card-group pr-2 px-sm-0 pr-sm-3 mx-sm-0 d-flex flex-column">
+          <h2 class="news--category">FEATURED STORIES</h2>
+          <div class="card max--height--90vh mb-3">
+            <div class="card--img">
+              <img class="w-100" src="./img/column.jpg" alt="">
+              <h1 class="card--img--overlay main-color">WORLD</h1>
+            </div>
+            <h1 class="card-title"><a class="hover-link-cards text-body font-weight-bold" href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></h1>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae aliquid quasi quod, corporis natus officia<p>
+          </div>
+
+          <div class="card max--height--90vh mb-3">
+            <div class="card--img">
+              <img class="w-100" src="./img/column.jpg" alt="">
+              <h1 class="card--img--overlay">ARG.</h1>
+            </div>
+            <h1 class="card-title"><a class="hover-link-cards text-body font-weight-bold" href="#">Over 100,000 Released From State and Federal Prisons During Pandemic: Study</a></h1>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae aliquid quasi quod, corporis natus officia.<p>
+          </div>
+          <div class="card max--height--90vh mb-3">
+            <div class="card--img">
+              <img class="w-100" src="./img/column.jpg" alt="">
+              <h1 class="card--img--overlay">NEWS</h1>
+            </div>
+            <h1 class="card-title"><a class="hover-link-cards text-body font-weight-bold" href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit.</a></h1>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores quod voluptatum, doloremque dolorum dicta nisi.<p>
+          </div>
+          <div class="card max--height--90vh mb-3">
+            <div class="card--img">
+              <img class="w-100" src="./img/column.jpg" alt="">
+              <h1 class="card--img--overlay">WORLD</h1>
+            </div>
+            <h1 class="card-title"><a class=" text-body font-weight-bold" href="#">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit.</a></h1>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit..<p>
+          </div>
+          <div class="card max--height--90vh mb-3">
+            <div class="card--img">
+              <img class="w-100" src="./img/column.jpg" alt="">
+              <h1 class="card--img--overlay">WORLD</h1>
+            </div>
+            <h1 class="card-title"><a class="hover-link-cards text-body font-weight-bold" href="#">
+                Lorem ipsum dolor sit amet, consectetur.</a></h1>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit..
+              <p>
+          </div>
+        </div>
+      </div>
+
+      <div class="main--column-2 col-lg-5 col-md-7 col-12 order-1 order-md-0 pr-3 pl-0">
+        <h2 class="news--category">TOP STORY</h2>
+        <div class="card top-story w-sm-100 max--height--90vh">
+          <div class="card--img w-100">
+            <img class="img-fluid w-100" src="./img/diegote2.jpg" alt="">
+            <h1 class="card--img--overlay">WORLD</h1>
+          </div>
+          <h1 class="card-title"><a class="hover-link-cards text-body font-weight-bold" href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></h1>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae aliquid quasi quod, corporis natus officia<p>
+        </div>
+
+        <div class="news--grid d-none d-md-block">
+          <h2 class="news--category">MY TURN</h2>
+          <div class="card-deck row">
+            <div class="card col-4 mr-1 pl-0 pr-2">
+              <div class="card--img w-100">
+                <img class="img-fluid" src="./img/news.jpg" alt="">
+              </div>
+              <h1 class="card-title"><a class="font-weight-bold text-decoration-none" href="#">'Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></h1>
+            </div>
+            <div class="card col-4 mx-0 px-2">
+              <div class="card--img w-100">
+                <img class="img-fluid" src="./img/news.jpg" alt="">
+              </div>
+              <h1 class="card-title"><a class="font-weight-bold text-decoration-none" href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></h1>
+            </div>
+            <div class="card col-4 ml-1 pl-2 pr-0">
+              <div class="card--img w-100">
+                <img class="img-fluid" src="./img/news.jpg" alt="">
+              </div>
+              <h1 class="card-title"><a class="font-weight-bold text-decoration-none" href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></h1>
+            </div>
+          </div>
+        </div>
+
+        <div class="news--grid d-none d-md-block">
+          <h2 class="news--category">CULTURE & TRAVEL</h2>
+          <div class="card-deck">
+            <div class="card col-4 mr-1 pl-0 pr-2">
+              <div class="card--img w-100">
+                <img class="img-fluid" src="./img/news.jpg" alt="">
+                <h1 class="card--img--overlay">WORLD</h1>
+              </div>
+              <h1 class="card-title"><a class="font-weight-bold text-decoration-none" href="#">Tengo un calor que me estoy muriendo</a></h1>
+            </div>
+            <div class="card col-4 mx-0 px-2">
+              <div class="card--img w-100">
+                <img class="img-fluid" src="./img/news.jpg" alt="">
+                <h1 class="card--img--overlay">WORLD</h1>
+              </div>
+              <h1 class="card-title"><a class="font-weight-bold text-decoration-none" href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, tenetur.</a></h1>
+            </div>
+            <div class="card col-4 ml-1 pl-2 pr-0">
+              <div class="card--img w-100">
+                <img class="img-fluid" src="./img/news.jpg" alt="">
+                <h1 class="card--img--overlay">WORLD</h1>
+              </div>
+              <h1 class="card-title"><a class="font-weight-bold text-decoration-none" href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto!</a></h1>
+            </div>
+          </div>
+        </div>
+
+        <div class="news--story w-100 d-none d-md-block">
+          <h2 class="news--category">MORE STORIES</h2>
+          <div class="news--story-container py-3 mx-0 row w-100">
+            <div class="news--story-avatar position-relative mr-0">
+              <img class="position-absolute" src="./img/story.jpg" alt="">
+            </div>
+            <article class="news--story-content w-75 pl-0 pl-md-3">
+              <h2 class="story--header font-weight-bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
+              <p class="story--text text-dark">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur.</p>
+            </article>
+          </div>
+
+          <div class="news--story-container py-3 mx-0 row w-100">
+            <div class="news--story-avatar position-relative mr-0">
+              <img class="img-fluid h-100" src="./img/story.jpg" alt="">
+            </div>
+            <article class="news--story-content w-75 pl-0 pl-md-3">
+              <h2 class="story--header font-weight-bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
+              <p class="story---text text-dark">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, aliquam.</p>
+            </article>
+          </div>
+
+          <div class="news--story-container py-3 mx-0 row w-100">
+            <div class="news--story-avatar position-relative mr-0">
+              <img class="img-fluid h-100" src="./img/story.jpg" alt="">
+            </div>
+            <article class="news--story-content w-75 pl-0 pl-md-3">
+              <h2 class="story--header font-weight-bold">Lorem ipsum dolor sit amet.</h2>
+              <p class="story---text text-dark">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </article>
+          </div>
+
+          <div class="news--story-container py-3 mx-0 row w-100">
+            <div class="news--story-avatar position-relative mr-0">
+              <img class="position-absolute" src="./img/story.jpg" alt="">
+            </div>
+            <article class="news--story-content w-75 pl-0 pl-md-3">
+              <h2 class="story--header font-weight-bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit!</h2>
+              <p class="story---text text-dark">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+            </article>
+          </div>
+
+          <div class="news--story-container py-3 mx-0 row w-100">
+            <div class="news--story-avatar position-relative mr-0">
+              <img class="position-absolute" src="./img/story.jpg" alt="">
+            </div>
+            <article class="news--story-content w-75 pl-0 pl-md-3">
+              <h2 class="story--header font-weight-bold">Lorem ipsum dolor sit amet, consectetur.</h2>
+              <p class="story---text text-dark">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat, fugiat?</p>
+            </article>
+          </div>
+
+          <div class="news--story-container py-3 mx-0 row w-100">
+            <div class="news--story-avatar position-relative mr-0">
+              <img class="position-absolute" src="./img/story.jpg" alt="">
+            </div>
+            <article class="news--story-content w-75 pl-0 pl-md-3">
+              <h2 class="story--header font-weight-bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga.</h2>
+              <p class="story---text text-dark">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, expedita.</p>
+            </article>
+          </div>
+
+          <div class="news--story-container py-3 mx-0 row w-100">
+            <div class="news--story-avatar position-relative mr-0">
+              <img class="position-absolute" src="./img/story.jpg" alt="">
+            </div>
+            <article class="news--story-content w-75 pl-0 pl-md-3">
+              <h2 class="story--header font-weight-bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
+              <p class="story---text text-dark">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos magni praesentium rerum.</p>
+            </article>
+          </div>
+
+          <div class="news--story-container py-3 mx-0 row w-100">
+            <div class="news--story-avatar position-relative mr-0">
+              <img class="position-absolute" src="./img/story.jpg" alt="">
+            </div>
+            <article class="news--story-content w-75 pl-0 pl-md-3">
+              <h2 class="story--header font-weight-bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, ducimus?</h2>
+              <p class="story---text text-dark">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, numquam.</p>
+            </article>
+          </div>
+
+          <div class="news--story-container py-3 mx-0 row w-100">
+            <div class="news--story-avatar position-relative mr-0">
+              <img class="position-absolute" src="./img/story.jpg" alt="">
+            </div>
+            <article class="news--story-content w-75 pl-0 pl-md-3">
+              <h2 class="story--header font-weight-bold">Kanye West Tweets Picture of Mount Rushmore With His Face
+                Added</h2>
+              <p class="story---text text-dark">West officially filed as a 2020 presidential candidate with the Federal
+                Election Commission on Thursday.</p>
+            </article>
+          </div>
+
+          <div class="news--story-container py-3 mx-0 row w-100">
+            <div class="news--story-avatar position-relative mr-0">
+              <img class="position-absolute" src="./img/story.jpg" alt="">
+            </div>
+            <article class="news--story-content w-75 pl-0 pl-md-3">
+              <h2 class="story--header font-weight-bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
+              <p class="story---text text-dark">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, omnis.</p>
+            </article>
+          </div>
+
+          <div class="news--story-container py-3 mx-0 row w-100">
+            <div class="news--story-avatar position-relative mr-0">
+              <img class="position-absolute" src="./img/story.jpg" alt="">
+            </div>
+            <article class="news--story-content w-75 pl-0 pl-md-3">
+              <h2 class="story--header font-weight-bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, porro.</h2>
+              <p class="story---text text-dark">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae.</p>
+            </article>
+          </div>
+
+          <div class="news--story-container py-3 mx-0 row w-100">
+            <div class="news--story-avatar position-relative mr-0">
+              <img class="position-absolute" src="./img/story.jpg" alt="">
+            </div>
+            <article class="news--story-content w-75 pl-0 pl-md-3">
+              <h2 class="story--header font-weight-bold">Lorem ipsum dolor sit amet.</h2>
+              <p class="story---text text-dark">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, consequuntur.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+
+      <div class="main--column-3 col-lg-3 col-md-12 order-3 order-md-0 pl-0 pr-1 ">
+        <div class="news--debate">
+          <h4 class="news--category">TITLE</h4>
+          <div class="news--debate--container py-4">
+            <div class="news--debate--profile d-flex">
+              <div class="news--debate--avatar mx-1">
+                <img src="./img/debate1.png" alt="">
+              </div>
+              <article class="news--debate--content px-1 d-flex flex-column">
+                <h2 class=" font-weight-bold">Lorem ipsum dolor sit amet.</h2>
+                <div class="news--debate--content-name title--text">
+                  <p class="text-muted d-inline-block">BY</p> <strong>Robert Downey Jr.</strong>
+                </div>
+              </article>
+            </div>
+
+            <div class="news--debate--profile d-flex flex-row-reverse">
+              <div class="news--debate--avatar mx-1">
+                <img src="./img/debate2.png" alt="">
+              </div>
+              <article class="news--debate--content px-1 d-flex flex-column mr-auto">
+                <h2 class=" font-weight-bold">Lorem ipsum dolor sit amet. </h2>
+                <div class="news--debate--content-name">
+                  <p class="text-muted d-inline-block">BY</p> <strong>Brad Pitt</strong>
+                </div>
+
+              </article>
+            </div>
+          </div>
+        </div>
+
+        <div class="news-opinion">
+          <h2 class="news--category">OPINION</h2>
+          <div class="news-opinion-profile pb-2 mb-3 d-flex">
+            <div class="news--debate--avatar mx-1">
+              <img src="./img/opinion.png" alt="">
+            </div>
+            <article class="news--debate--content px-1 d-flex flex-column">
+              <p class="h4  font-weight-bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, rem. </p>
+              <div class="news--debate--content-name title--text">
+                <p class="text-muted d-inline-block font-weight-bold">BY Silvester Stalone </p>
+              </div>
+            </article>
+          </div>
+
+          <div class="news-opinion-profile pb-2 mb-3 d-flex">
+            <div class="news--debate--avatar mx-1">
+              <img src="./img/opinion.png" alt="">
+            </div>
+            <article class="news--debate--content px-1 d-flex flex-column">
+              <p class="h4  text-body font-weight-bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum.</p>
+              <div class="news--debate--content-name title--text">
+                <p class="text-muted d-inline-block font-weight-bold">BY JOHN WICK</p>
+              </div>
+            </article>
+          </div>
+
+          <div class="news-opinion-profile pb-2 mb-3 d-flex">
+            <div class="news--debate--avatar mx-1">
+              <img src="./img/opinion.png" alt="">
+            </div>
+            <article class="news--debate--content px-1 d-flex flex-column">
+              <p class="h4  text-body font-weight-bold">Lorem ipsum dolor sit amet, consectetur.</p>
+              <div class="news--debate--content-name title--text">
+                <p class="text-muted d-inline-block font-weight-bold">BY ANTHONY HOPKINS</p>
+              </div>
+            </article>
+          </div>
+
+          <div class="news-opinion-profile pb-2 mb-3 d-flex">
+            <div class="news--debate--avatar mx-1">
+              <img src="./img/opinion.png" alt="">
+            </div>
+            <article class="news--debate--content px-1 d-flex flex-column">
+              <p class="h4 text-body font-weight-bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              <div class="news--debate--content-name title--text">
+                <p class="text-muted d-inline-block font-weight-bold">BY ASHTON KUTCHER</p>
+              </div>
+            </article>
+          </div>
+
+          <div class="news-opinion-profile pb-2 mb-3 d-flex">
+            <div class="news--debate--avatar mx-1">
+              <img src="./img/opinion.png" alt="">
+            </div>
+            <article class="news--debate--content px-1 d-flex flex-column">
+              <p class="h4 text-body font-weight-bold">Lorem ipsum dolor sit amet. </p>
+              <div class="news--debate--content-name title--text">
+                <p class="text-muted d-inline-block font-weight-bold">BY RICK FORT</p>
+              </div>
+            </article>
+          </div>
+
+          <div class="news-opinion-profile pb-2 mb-3 d-flex">
+            <div class="news--debate--avatar mx-1">
+              <img src="./img/opinion.png" alt="">
+            </div>
+            <article class="news--debate--content px-1 d-flex flex-column">
+              <p class="h4 text-body font-weight-bold h">Lorem ipsum dolor sit amet.</p>
+              <div class="news--debate--content-name tex">
+                <p class="text-muted d-inline-block font-weight-bold">BY SOME BODYONCETOLDME</p>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <div class="migrated-content-sm d-block d-md-none">
+          <div class="news--story w-100 d-block d-md-none">
+            <h2 class="news--category">MORE STORIES</h2>
+            <div class="news--story-container py-3 mx-0 w-100">
+              <div class="news--story-avatar position-relative mr-3 float-left">
+                <img src="./img/story.jpg" alt="">
+              </div>
+              <article class="news--story-content">
+                <h2 class="story--header font-weight-bold">Lorem ipsum dolor sit amet.</h2>
+                <p class="story---text text-dark">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, maiores.</p>
+              </article>
+            </div>
+
+            <div class="news--story-container py-3 mx-0 w-100">
+              <div class="news--story-avatar position-relative mr-3 float-left">
+                <img src="./img/story.jpg" alt="">
+              </div>
+              <article class="news--story-content">
+                <h2 class="story--header font-weight-bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos, delectus.</h2>
+                <p class="story---text text-dark">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus reprehenderit facere ex voluptatum incidunt rem numquam, et esse doloremque impedit..</p>
+              </article>
+            </div>
+
+            <div class="news--story-container py-3 mx-0 w-100">
+              <div class="news--story-avatar position-relative mr-3 float-left">
+                <img class="img-fluid h-100" src="./img/story.jpg" alt="">
+              </div>
+              <article class="news--story-content">
+                <h2 class="story--header font-weight-bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, vitae!</h2>
+                <p class="story---text text-dark">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium harum est eveniet laudantium iusto nobis.</p>
+              </article>
+            </div>
+
+            <div class="news--story-container py-3 mx-0 w-100">
+              <div class="news--story-avatar position-relative mr-3 float-left">
+                <img class="position-absolute" src="./img/story.jpg" alt="">
+              </div>
+              <article class="news--story-content">
+                <h2 class="story--header font-weight-bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, repellat!?</h2>
+                <p class="story---text text-dark">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel.</p>
+              </article>
+            </div>
+
+            <div class="news--story-container py-3 mx-0 w-100">
+              <div class="news--story-avatar position-relative mr-3 float-left">
+                <img class="position-absolute" src="./img/story.jpg" alt="">
+              </div>
+              <article class="news--story-content">
+                <h2 class="story--header font-weight-bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, possimus, ratione?</h2>
+                <p class="story---text text-dark">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio placeat necessitatibus molestiae magnam in cum.</p>
+              </article>
+            </div>
+
+            <div class="news--story-container py-3 mx-0 w-100">
+              <div class="news--story-avatar position-relative mr-3 float-left">
+                <img class="position-absolute" src="./img/story.jpg" alt="">
+              </div>
+              <article class="news--story-content">
+                <h2 class="story--header font-weight-bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ullam aspernatur eius.</h2>
+                <p class="story---text text-dark">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, doloremque?</p>
+              </article>
+            </div>
+
+            <div class="news--story-container py-3 mx-0 w-100">
+              <div class="news--story-avatar position-relative mr-3 float-left">
+                <img class="position-absolute" src="./img/story.jpg" alt="">
+              </div>
+              <article class="news--story-content">
+                <h2 class="story--header font-weight-bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, nisi!</h2>
+                <p class="story---text text-dark">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus, eum, officia. Provident!</p>
+              </article>
+            </div>
+
+            <div class="news--story-container py-3 mx-0 w-100">
+              <div class="news--story-avatar position-relative mr-3 float-left">
+                <img class="position-absolute" src="./img/story.jpg" alt="">
+              </div>
+              <article class="news--story-content">
+                <h2 class="story--header font-weight-bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore, illum.</h2>
+                <p class="story---text text-dark">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente magnam corporis, officiis.</p>
+              </article>
+            </div>
+
+            <div class="news--story-container py-3 mx-0 w-100">
+              <div class="news--story-avatar position-relative mr-3 float-left">
+                <img class="position-absolute" src="./img/story.jpg" alt="">
+              </div>
+              <article class="news--story-content">
+                <h2 class="story--header font-weight-bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas placeat porro, error hic voluptatem. Officiis.</h2>
+                <p class="story---text text-dark">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt?</p>
+              </article>
+            </div>
+
+            <div class="news--story-container py-3 mx-0 w-100">
+              <div class="news--story-avatar position-relative mr-3 float-left">
+                <img class="position-absolute" src="./img/story.jpg" alt="">
+              </div>
+              <article class="news--story-content">
+                <h2 class="story--header font-weight-bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, nam. </h2>
+                <p class="story---text text-dark">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore.</p>
+              </article>
+            </div>
+
+            <div class="news--story-container py-3 mx-0 w-100">
+              <div class="news--story-avatar position-relative mr-3 float-left">
+                <img class="position-absolute" src="./img/story.jpg" alt="">
+              </div>
+              <article class="news--story-content">
+                <h2 class="story--header font-weight-bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, aliquam!</h2>
+                <p class="story---text text-dark">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim quae, ipsa culpa.</p>
+              </article>
+            </div>
+
+            <div class="news--story-container py-3 mx-0 w-100">
+              <div class="news--story-avatar position-relative mr-3 float-left">
+                <img class="position-absolute" src="./img/story.jpg" alt="">
+              </div>
+              <article class="news--story-content">
+                <h2 class="story--header font-weight-bold">Lorem ipsum dolor sit amet.</h2>
+                <p class="story---text text-dark">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, non.</p>
+              </article>
+            </div>
+          </div>
+
+          <div class="news--grid-thing main--column-1 col-sm-12 px-0 mx-0 d-sm-block d-md-none ">
+            <div class="card-group pl-0 pr-2 mx-0 d-flex flex-column">
+              <h2 class="news--category">OTHERNEWS</h2>
+              <div class="card w-100">
+                <div class="card--img max--height--90vh w-100">
+                  <img class="img-fluid w-100" src="./img/news.jpg" alt="">
+                </div>
+                <h6 class="card-title"><a class="font-weight-bold text-decoration-none" href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></h6>
+              </div>
+
+              <div class="card w-100">
+                <div class="card--img max--height--90vh w-100">
+                  <img class="img-fluid w-100" src="./img/news.jpg" alt="">
+                </div>
+                <h6 class="card-title"><a class="font-weight-bold text-decoration-none" href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, repudiandae.</a></h6>
+              </div>
+
+              <div class="card w-100">
+                <div class="card--img max--height--90vh w-100">
+                  <img class="img-fluid w-100" src="./img/news.jpg" alt="">
+                </div>
+                <h6 class="card-title"><a class="font-weight-bold text-decoration-none" href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, eum.</a></h6>
+              </div>
+            </div>
+          </div>
+
+          <div class="news--grid-thing main--column-1 col-sm-12 px-0 mx-0 d-sm-block d-md-none ">
+            <div class="card-group pl-0 pr-2 mx-0 d-flex flex-column">
+              <h2 class="news--category">CULTURE & TRAVEL</h2>
+              <div class="card w-100">
+                <div class="card--img max--height--90vh w-100">
+                  <img class="img-fluid w-100" src="./img/news.jpg" alt="">
+                </div>
+                <h6 class="card-title"><a class="font-weight-bold text-decoration-none" href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></h6>
+              </div>
+
+              <div class="card w-100">
+                <div class="card--img max--height--90vh w-100">
+                  <img class="img-fluid w-100" src="./img/news.jpg" alt="">
+                </div>
+                <h6 class="card-title"><a class="font-weight-bold text-decoration-none" href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, odio!s</a></h6>
+              </div>
+
+              <div class="card w-100">
+                <div class="card--img max--height--90vh w-100">
+                  <img class="img-fluid w-100" src="./img/news.jpg" alt="">
+                </div>
+                <h6 class="card-title"><a class="font-weight-bold text-decoration-none" href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></h6>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="news-signup d-block col-10 col-sm-7 col-lg-12 mx-auto">
+          <form action="#" class="news-signup-form jumbotron jumbotron-fluid py-3 px-4 d-flex flex-column">
+            <div class="form-header d-flex">
+              <div class="form-header-icon mr-3"></div>
+              <h6 class="form-header-title font-weight-bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h6>
+            </div>
+
+            <input type="email" name="email" id="news-email" placeholder="Email Address">
+            <button class="btn main-bg text-white mt-3 p-1 text-uppercase font-weight-bold" type="submit">free sign up
+              &#10095;</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="news--magazine mt-md-5 pl-3">
+      <div class="news--magazine-title d-flex justify-content-center w-100 border border-top-0 border-left-0 border-right-0 pb-2">
+        <div class="form-header-icon p-0"></div>
+        <h5 class="text-body font-weight-bold ml-2">IN THE MAGAZINE</h5>
+      </div>
+      <div class="row d-flex align-items-start w-100 pt-0">
+        <div class="card col-12 col-md-3 first-element pl-2 pl-sm-1">
+          <div class="card--img w-sm-100">
+            <img class="img-fluid w-100" src="./img/magazine.webp" alt="">
+            <h1 class="card--img--overlay main-color">NOV 19 ISSUE</h1>
+            <div class="card-footer w-100">
+              <h6 class="text-center font-weight-bold"> SEE ALL FEATURES </h6>
+            </div>
+          </div>
+        </div>
+
+        <div class="card col-12 col-md-3 pt-4 px-2">
+          <img class="mag-images" src="./img/elDiegote.jpg" alt="">
+          <div class="card-title mt-2">
+            <h5 class="main-bg d-inline-block px-2 font-weight-bold text-white">TITLE</h5>
+            <h6 class="d-inline-block main-color font-weight-bold">TITLE</h6>
+          </div>
+          <div class="card-body p-0">
+            <h5 class="font-weight-bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h5>
+          </div>
+        </div>
+
+        <div class="card col-12 col-md-3 pt-4 px-2">
+          <img class="mag-images" src="./img/elDiegote.jpg" alt="">
+          <div class="card-title mt-2">
+            <h5 class="main-bg d-inline-block px-2 font-weight-bold text-white">TITLE</h5>
+            <h6 class="d-inline-block main-color font-weight-bold">TITLE</h6>
+          </div>
+          <div class="card-body p-0">
+            <h5 class="font-weight-bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h5>
+          </div>
+        </div>
+
+        <div class="card col-12 col-md-3 pt-4 px-2 ">
+          <img class="mag-images" src="./img/elDiegote.jpg" alt="">
+          <div class="card-title mt-2">
+            <h5 class="main-bg d-inline-block px-2 font-weight-bold text-white">TITLE</h5>
+            <h6 class="d-inline-block main-color font-weight-bold">TITLE</h6>
+          </div>
+          <div class="card-body p-0">
+            <h5 class="font-weight-bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h5>
+          </div>
+        </div>
+
+        <div class="card col-12 col-md-3 pt-4 px-2 ">
+          <img class="mag-images" src="./img/elDiegote.jpg" alt="">
+          <div class="card-title mt-2">
+            <h5 class="main-bg d-inline-block px-2 font-weight-bold text-white">TITLE</h5>
+            <h6 class="d-inline-block main-color font-weight-bold">TITLE</h6>
+          </div>
+          <div class="card-body p-0">
+            <h5 class="font-weight-bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h5>
+          </div>
+        </div>
+
+        <div class="card col-12 col-md-3 pt-4 px-2 ">
+          <img class="mag-images" src="./img/elDiegote.jpg" alt="">
+          <div class="card-title mt-2">
+            <h5 class="main-bg d-inline-block px-2 font-weight-bold text-white">TITLE</h5>
+            <h6 class="d-inline-block main-color font-weight-bold">TITLE</h6>
+          </div>
+          <div class="card-body p-0">
+            <h5 class="font-weight-bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h5>
+          </div>
+        </div>
+        <div class="card col-12 col-md-3 pt-4 px-2 ">
+          <img class="mag-images" src="./img/elDiegote.jpg" alt="">
+          <div class="card-title mt-2">
+            <h5 class="main-bg d-inline-block px-2 font-weight-bold text-white">TITLE</h5>
+            <h6 class="d-inline-block main-color font-weight-bold">TITLE</h6>
+          </div>
+          <div class="card-body p-0">
+            <h5 class="font-weight-bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h5>
+          </div>
+        </div>
+        <div class="card col-12 col-md-3 pt-4 px-2 ">
+          <img class="mag-images" src="./img/elDiegote.jpg" alt="">
+          <div class="card-title mt-2">
+            <h5 class="main-bg d-inline-block px-2 font-weight-bold text-white">TITLE</h5>
+            <h6 class="d-inline-block main-color font-weight-bold">TITLE</h6>
+          </div>
+          <div class="card-body p-0">
+            <h5 class="font-weight-bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="news--magazine editors--pick mt-4">
+      <div class="news--magazine-title d-flex justify-content-center w-100 border border-top-0 border-left-0 border-right-0 pb-2">
+        <div class="form-header-icon p-0"></div>
+        <h5 class="text-body font-weight-bold ml-2">EDITOR'S PICK</h5>
+      </div>
+      <div class="row d-flex align-items-start w-100 pl-3">
+        <div class="col-12 col-md-6 col-lg-3 first-element pt-5 px-2 ">
+          <div class="card">
+            <img class="w-100 h-75 card--img--top" src="./img/editor.jpg" alt="">
+            <div class="card--img--overlay">
+              <h5 class="main-color d-inline-block px-2 font-weight-bold ">TITLE</h5>
+            </div>
+          </div>
+          <div class="p-0">
+            <h5 class="font-weight-bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti, quia.<p>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-3 first-element pt-5 px-2 ">
+          <div class="card">
+            <img class="w-100 h-75 card--img--top" src="./img/editor.jpg" alt="">
+            <div class="card--img--overlay">
+              <h5 class="main-color d-inline-block px-2 font-weight-bold ">TITLE</h5>
+            </div>
+          </div>
+          <div class="p-0">
+            <h5 class="font-weight-bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus incidunt, illum laborum!<p>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-3 first-element pt-5 px-2 ">
+          <div class="card">
+            <img class="w-100 h-75 card--img--top" src="./img/editor.jpg" alt="">
+            <div class="card--img--overlay">
+              <h5 class="main-color d-inline-block px-2 font-weight-bold ">TITLE</h5>
+            </div>
+          </div>
+          <div class="p-0">
+            <h5 class="font-weight-bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis temporibus odit sunt!<p>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-3 first-element pt-5 px-2 ">
+          <div class="card">
+            <img class="w-100 h-75 card--img--top" src="./img/editor.jpg" alt="">
+            <div class="card--img--overlay">
+              <h5 class="main-color d-inline-block px-2 font-weight-bold ">TITLE</h5>
+            </div>
+          </div>
+          <div class="p-0">
+            <h5 class="font-weight-bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime dolore, voluptatum iste.<p>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-3 first-element pt-5 px-2 ">
+          <div class="card">
+            <img class="w-100 h-75 card--img--top" src="./img/editor.jpg" alt="">
+            <div class="card--img--overlay">
+              <h5 class="main-color d-inline-block px-2 font-weight-bold ">TITLE</h5>
+            </div>
+          </div>
+          <div class="p-0">
+            <h5 class="font-weight-bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat laboriosam consectetur ipsum.<p>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-3 first-element pt-5 px-2 ">
+          <div class="card">
+            <img class="w-100 h-75 card--img--top" src="./img/editor.jpg" alt="">
+            <div class="card--img--overlay">
+              <h5 class="main-color d-inline-block px-2 font-weight-bold ">TITLE</h5>
+            </div>
+          </div>
+          <div class="p-0">
+            <h5 class="font-weight-bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus cum, eligendi sequi..<p>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-3 first-element pt-5 px-2 ">
+          <div class="card">
+            <img class="w-100 h-75 card--img--top" src="./img/editor.jpg" alt="">
+            <div class="card--img--overlay">
+              <h5 class="main-color d-inline-block px-2 font-weight-bold ">TITLE</h5>
+            </div>
+          </div>
+          <div class="p-0">
+            <h5 class="font-weight-bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus iusto, nesciunt odit!<p>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-3 first-element pt-5 px-2 ">
+          <div class="card">
+            <img class="w-100 h-75 card--img--top" src="./img/editor.jpg" alt="">
+            <div class="card--img--overlay">
+              <h5 class="main-color d-inline-block px-2 font-weight-bold ">TITLE</h5>
+            </div>
+          </div>
+          <div class="p-0">
+            <h5 class="font-weight-bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam ratione sit sint?<p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="news-world container-fluid">
+      <div class="section-title border border-left-0 border-right-0 border-bottom-0 pt-4 pb-2">
+        <h4 class="main-color font-weight-bold">ARG</h4>
+      </div>
+      <div class="news-world-grid row">
+        <div class="card m-0 pr-4 col-12 col-md-4">
+          <div class="card--img  max--height--90vh w-100">
+            <img class="img-fluid w-100" src="./img/diegote2.jpg" alt="">
+          </div>
+          <h5 class="card-title"><a class="hover-link-cards text-body font-weight-bold" href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, expedita quidem aut.</a></h5>
+        </div>
+        <div class="card m-0 pr-4 col-12 col-md-4">
+          <div class="card--img  max--height--90vh w-100">
+            <img class="img-fluid w-100" src="./img/diegote2.jpg" alt="">
+          </div>
+          <h5 class="card-title"><a class="hover-link-cards text-body font-weight-bold" href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt pariatur sint molestiae quia, beatae quod.</a></h5>
+        </div>
+
+        <div class="news-world-stories col-12 col-md-4 pb-3">
+          <div class="py-0 mx-0 w-100 pb-0 d-flex">
+            <div class="img-cont mr-sm-3 p-0 ">
+              <img src="./img/story.jpg" alt="">
+            </div>
+            <article class="news--story-content ml-md-1">
+              <h2 class="story--header font-weight-bold p-0 m-0 pl-2 pl-md-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa numquam iste ea.</h2>
+            </article>
+          </div>
+
+          <div class="py-3 mx-0 my-4 w-100 pb-0 d-flex border border-left-0 border-right-0">
+            <div class="img-cont mr-sm-3 p-0">
+              <img src="./img/story.jpg" alt="">
+            </div>
+            <article class="news--story-content ml-md-1">
+              <h2 class="story--header font-weight-bold p-0 m-0 pl-2 pl-md-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis eveniet doloremque placeat eaque laboriosam.</h2>
+            </article>
+          </div>
+
+          <div class="py-0 mx-0 w-100 pb-0 d-flex">
+            <div class="img-cont mr-sm-3 p-0 ">
+              <img src="./img/story.jpg" alt="">
+            </div>
+            <article class="news--story-content w-75  ml-md-1">
+              <h2 class="story--header font-weight-bold p-0 m-0 pl-2 pl-md-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur dolorem facilis nihil.</h2>
+            </article>
+          </div>
+        </div>
+      </div>
+
+      <div class="section-title border border-left-0 border-right-0 border-bottom-0 pt-4 pb-2">
+        <h4 class="main-color font-weight-bold">ARG</h4>
+      </div>
+      <div class="news-world-grid row">
+        <div class="card m-0 pr-4 col-12 col-md-4">
+          <div class="card--img  max--height--90vh w-100">
+            <img class="img-fluid w-100" src="./img/diegote2.jpg" alt="">
+          </div>
+          <h5 class="card-title"><a class="hover-link-cards text-body font-weight-bold" href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, eius.</a></h5>
+        </div>
+        <div class="card m-0 pr-4 col-12 col-md-4">
+          <div class="card--img  max--height--90vh w-100">
+            <img class="img-fluid w-100" src="./img/diegote2.jpg" alt="">
+          </div>
+          <h5 class="card-title"><a class="hover-link-cards text-body font-weight-bold" href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est fugit quia dolore!</a></h5>
+        </div>
+
+        <div class="news-world-stories col-12 col-md-4 pb-3">
+          <div class="py-0 mx-0 w-100 pb-0 d-flex">
+            <div class="img-cont mr-sm-3 p-0 ">
+              <img src="./img/story.jpg" alt="">
+            </div>
+            <article class="news--story-content w-75  ml-md-1">
+              <h2 class="story--header font-weight-bold p-0 m-0 pl-2 pl-md-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, veritatis!</h2>
+            </article>
+          </div>
+
+          <div class="py-3 mx-0 my-4 w-100 pb-0 d-flex border border-left-0 border-right-0">
+            <div class="img-cont mr-sm-3 p-0 ">
+              <img src="./img/story.jpg" alt="">
+            </div>
+            <article class="news--story-content w-75  ml-md-1">
+              <h2 class="story--header font-weight-bold p-0 m-0 pl-2 pl-md-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti suscipit incidunt, nulla?</h2>
+            </article>
+          </div>
+
+          <div class="py-0 mx-0 w-100 pb-0 d-flex">
+            <div class="img-cont mr-sm-3 p-0 ">
+              <img src="./img/story.jpg" alt="">
+            </div>
+            <article class="news--story-content w-75  ml-md-1">
+              <h2 class="story--header font-weight-bold p-0 m-0 pl-2 pl-md-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, velit cumque rerum!</h2>
+            </article>
+          </div>
+        </div>
+      </div>
+
+      <div class="section-title border border-left-0 border-right-0 border-bottom-0 pt-4 pb-2">
+        <h4 class="main-color font-weight-bold">ARG</h4>
+      </div>
+      <div class="news-world-grid row">
+        <div class="card m-0 pr-4 col-12 col-md-4">
+          <div class="card--img  max--height--90vh w-100">
+            <img class="img-fluid w-100" src="./img/diegote2.jpg" alt="">
+          </div>
+          <h5 class="card-title"><a class="hover-link-cards text-body font-weight-bold" href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis ullam, fugiat dolore!</a></h5>
+        </div>
+        <div class="card m-0 pr-4 col-12 col-md-4">
+          <div class="card--img  max--height--90vh w-100">
+            <img class="img-fluid w-100" src="./img/diegote2.jpg" alt="">
+          </div>
+          <h5 class="card-title"><a class="hover-link-cards text-body font-weight-bold" href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, autem?</a></h5>
+        </div>
+
+        <div class="news-world-stories col-12 col-md-4 pb-3">
+          <div class="py-0 mx-0 w-100 pb-0 d-flex">
+            <div class="img-cont mr-sm-3 p-0 ">
+              <img src="./img/story.jpg" alt="">
+            </div>
+            <article class="news--story-content w-75  ml-md-1">
+              <h2 class="story--header font-weight-bold p-0 m-0 pl-2 pl-md-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente debitis eos, ea.</h2>
+            </article>
+          </div>
+
+          <div class="py-3 mx-0 my-4 w-100 pb-0 d-flex border border-left-0 border-right-0">
+            <div class="img-cont mr-sm-3 p-0 ">
+              <img src="./img/story.jpg" alt="">
+            </div>
+            <article class="news--story-content w-75  ml-md-1">
+              <h2 class="story--header font-weight-bold p-0 m-0 pl-2 pl-md-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, quibusdam?</h2>
+            </article>
+          </div>
+
+          <div class="py-0 mx-0 w-100 pb-0 d-flex">
+            <div class="img-cont mr-sm-3 p-0 ">
+              <img src="./img/story.jpg" alt="">
+            </div>
+            <article class="news--story-content w-75  ml-md-1">
+              <h2 class="story--header font-weight-bold p-0 m-0 pl-2 pl-md-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, dicta.</h2>
+            </article>
+          </div>
+        </div>
+      </div>
+
+      <div class="section-title border border-left-0 border-right-0 border-bottom-0 pt-4 pb-2">
+        <h4 class="main-color font-weight-bold">ARG</h4>
+      </div>
+      <div class="news-world-grid row">
+        <div class="card m-0 pr-4 col-12 col-md-4">
+          <div class="card--img  max--height--90vh w-100">
+            <img class="img-fluid w-100" src="./img/diegote2.jpg" alt="">
+          </div>
+          <h5 class="card-title"><a class="hover-link-cards text-body font-weight-bold" href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, cumque. Fugit, ipsum.</a></h5>
+        </div>
+        <div class="card m-0 pr-4 col-12 col-md-4">
+          <div class="card--img  max--height--90vh w-100">
+            <img class="img-fluid w-100" src="./img/diegote2.jpg" alt="">
+          </div>
+          <h5 class="card-title"><a class="hover-link-cards text-body font-weight-bold" href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error voluptas, labore expedita.</a></h5>
+        </div>
+
+        <div class="news-world-stories col-12 col-md-4 pb-3">
+          <div class="py-0 mx-0 w-100 pb-0 d-flex">
+            <div class="img-cont mr-sm-3 p-0 ">
+              <img src="./img/story.jpg" alt="">
+            </div>
+            <article class="news--story-content w-75  ml-md-1">
+              <h2 class="story--header font-weight-bold p-0 m-0 pl-2 pl-md-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, corrupti!</h2>
+            </article>
+          </div>
+
+          <div class="py-3 mx-0 my-4 w-100 pb-0 d-flex border border-left-0 border-right-0">
+            <div class="img-cont mr-sm-3 p-0 ">
+              <img src="./img/story.jpg" alt="">
+            </div>
+            <article class="news--story-content w-75  ml-md-1">
+              <h2 class="story--header font-weight-bold p-0 m-0 pl-2 pl-md-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, rem.</h2>
+            </article>
+          </div>
+
+          <div class="py-0 mx-0 w-100 pb-0 d-flex">
+            <div class="img-cont mr-sm-3 p-0 ">
+              <img src="./img/story.jpg" alt="">
+            </div>
+            <article class="news--story-content w-75  ml-md-1">
+              <h2 class="story--header font-weight-bold p-0 m-0 pl-2 pl-md-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, nam.</h2>
+            </article>
+          </div>
+        </div>
+      </div>
+
+      <div class="section-title border border-left-0 border-right-0 border-bottom-0 pt-4 pb-2">
+        <h4 class="main-color font-weight-bold">ARG</h4>
+      </div>
+      <div class="news-world-grid row">
+        <div class="card m-0 pr-4 col-12 col-md-4">
+          <div class="card--img  max--height--90vh w-100">
+            <img class="img-fluid w-100" src="./img/column.jpg" alt="">
+          </div>
+          <h5 class="card-title"><a class="hover-link-cards text-body font-weight-bold" href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores nobis at, deserunt?</a></h5>
+        </div>
+        <div class="card m-0 pr-4 col-12 col-md-4">
+          <div class="card--img  max--height--90vh w-100">
+            <img class="img-fluid w-100" src="./img/column.jpg" alt="">
+          </div>
+          <h5 class="card-title"><a class="hover-link-cards text-body font-weight-bold" href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, ad.</a></h5>
+        </div>
+
+        <div class="news-world-stories col-12 col-md-4 pb-3">
+          <div class="py-0 mx-0 w-100 pb-0 d-flex">
+            <div class="img-cont mr-sm-3 p-0 ">
+              <img src="./img/story.jpg" alt="">
+            </div>
+            <article class="news--story-content w-75  ml-md-1">
+              <h2 class="story--header font-weight-bold p-0 m-0 pl-2 pl-md-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, repellendus.</h2>
+            </article>
+          </div>
+
+          <div class="py-3 mx-0 my-4 w-100 pb-0 d-flex border border-left-0 border-right-0">
+            <div class="img-cont mr-sm-3 p-0 ">
+              <img src="./img/story.jpg" alt="">
+            </div>
+            <article class="news--story-content w-75  ml-md-1">
+              <h2 class="story--header font-weight-bold p-0 m-0 pl-2 pl-md-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi aspernatur nobis optio.</h2>
+            </article>
+          </div>
+
+          <div class="py-0 mx-0 w-100 pb-0 d-flex">
+            <div class="img-cont mr-sm-3 p-0 ">
+              <img src="./img/story.jpg" alt="">
+            </div>
+            <article class="news--story-content w-75  ml-md-1">
+              <h2 class="story--header font-weight-bold p-0 m-0 pl-2 pl-md-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, magnam!</h2>
+            </article>
+          </div>
+        </div>
+      </div>
+
+      <div class="section-title border border-left-0 border-right-0 border-bottom-0 pt-4 pb-2">
+        <h4 class="main-color font-weight-bold">ARG</h4>
+      </div>
+      <div class="news-world-grid row">
+        <div class="card m-0 pr-4 col-12 col-md-4">
+          <div class="card--img  max--height--90vh w-100">
+            <img class="img-fluid w-100" src="./img/column.jpg" alt="">
+          </div>
+          <h5 class="card-title"><a class="hover-link-cards text-body font-weight-bold" href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, velit.</a></h5>
+        </div>
+        <div class="card m-0 pr-4 col-12 col-md-4">
+          <div class="card--img  max--height--90vh w-100">
+            <img class="img-fluid w-100" src="./img/column.jpg" alt="">
+          </div>
+          <h5 class="card-title"><a class="hover-link-cards text-body font-weight-bold" href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, adipisci.</a></h5>
+        </div>
+
+        <div class="news-world-stories col-12 col-md-4 pb-3">
+          <div class="py-0 mx-0 w-100 pb-0 d-flex">
+            <div class="img-cont mr-sm-3 p-0 ">
+              <img src="./img/story.jpg" alt="">
+            </div>
+            <article class="news--story-content w-75  ml-md-1">
+              <h2 class="story--header font-weight-bold p-0 m-0 pl-2 pl-md-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim molestias obcaecati nesciunt.</h2>
+            </article>
+          </div>
+
+          <div class="py-3 mx-0 my-4 w-100 pb-0 d-flex border border-left-0 border-right-0">
+            <div class="img-cont mr-sm-3 p-0 ">
+              <img src="./img/story.jpg" alt="">
+            </div>
+            <article class="news--story-content w-75  ml-md-1">
+              <h2 class="story--header font-weight-bold p-0 m-0 pl-2 pl-md-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste, libero.</h2>
+            </article>
+          </div>
+
+          <div class="py-0 mx-0 w-100 pb-0 d-flex">
+            <div class="img-cont mr-sm-3 p-0 ">
+              <img src="./img/story.jpg" alt="">
+            </div>
+            <article class="news--story-content w-75  ml-md-1">
+              <h2 class="story--header font-weight-bold p-0 m-0 pl-2 pl-md-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, consectetur incidunt atque.</h2>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="news-subscribe border border-left-0 border-right-0 py-4 pb-5 px-sm-2 width-custom">
+      <h6 class="main-color font-weight-bold">SUBSCRIBE</h6>
+      <div class="row px-0 mx-0">
+        <div class="col-12 col-lg-8 pl-0">
+          <div class="jumbotron position-relative mr-0 py-0 pb-3 py-md-5 mb-0 d-flex justify-content-start justify-content-md-center">
+            <div class="position-relative subsc-img-cont">
+              <img src="./img/elDiegote.jpg" alt="">
+              <img class="position-absolute mt-4" src="./img/elDiegote.jpg" alt="">
+            </div>
+
+            <div class="d-flex flex-column  ml-4 pl-4 align-self-md-center align-self-end subsc-txt-cont align-items-center align-items-md-start">
+              <h4 class="fixer  font-weight-bold text-body mb-0 mb-md-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit repudiandae fuga quae.</h4>
+              <p class="fixer">All Access + Weekly Delivery.</p>
+              <p class="fixer">A Membership That's Perfect for You</p>
+
+              <button class="btn btn-default align-self-center align-self-md-start text-uppercase main-bg font-weight-bold text-white mt-4" type="button">subscribe &#10095;</button>
+            </div>
+          </div>
+        </div>
+
+        <h6 class="main-color font-weight-bold d-block d-lg-none mt-4 mb-2">NEWS LETTER</h6>
+        <div class="pl-3 pl-md-0 col-12 col-lg-4">
+          <div class="news-letter border row  pl-0 ml-md-1">
+            <div class="col-3 col-lg-6 d-none d-md-flex px-0">
+              <img class="w-100" src="./img/news.jpg" alt="">
+            </div>
+            <div class="col-12 col-md-9 col-lg-6 pr-0 pt-4 d-flex flex-column justify-content-md-center align-items-center align-items-md-start">
+              <h4 class="font-weight-bold">The TITLE</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo odio atque aspernatur natus totam voluptatum animi?</p>
+              <form class="mt-4 w-100 d-flex flex-column" action="#">
+                <input class="" type="email" name="email" id="email-1" placeholder="address">
+                <button class="btn main-bg text-white mt-3 p-1 text-uppercase font-weight-bold" type="submit">free sign
+                  up &#10095;</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="container-fluid mt-3 pb-4">
+    <div class="footer-header d-flex row border-bottom pb-3">
+      <div class="footer--logo col-12 col-md-8 d-flex flex-column flex-md-row">
+        <img class="footer--logo" src="./img/logo2.png" alt="">
+        <p class="text-secondary align-self-start align-self-md-end mx-2">© 2020 NEWSWEEK</p>
+      </div>
+      <div class="footer-icons d-flex col-12 col-md-4 justify-content-md-end align-items-end">
+        <ul class="d-flex list-unstyled mb-0 px-1">
+          <li><a class="text-muted" href="#"><i class="fa fa-2x fa-facebook-square px-3"></i></a></li>
+          <li><a class="text-muted" href="#"><i class="fa fa-2x fa-twitter px-3"></i></a></li>
+          <li><a class="text-muted" href="#"><i class="fa fa-2x fa-instagram px-3"></i></a></li>
+          <li><a class="text-muted" href="#"><i class="fa fa-2x fa-tumblr px-3"></i></a></li>
+          <li><a class="text-muted" href="#"><i class="fa fa-2x fa-linkedin px-3"></i></a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer--2">
+      <div class="my-2">
+        <div class="d-flex">
+          <span class="font-weight-bold font-weight-bold mr-2">Editions:</span>
+          <ul class="nav footers">
+            <li class="nav-item pr-2">
+              <a class="text-secondary font-weight-light nav-link border-right py-0" href="#">ARG edition</a>
+            </li>
+            <li class="nav-item pr-2">
+              <a class="text-secondary py-0 border-right  font-weight-light nav-link" href="#">China</a>
+            </li>
+            <li class="nav-item pr-2">
+              <a class="text-secondary py-0 border-right  font-weight-light nav-link" href="#">Pakistan</a>
+            </li>
+            <li class="nav-item pr-2">
+              <a class="text-secondary py-0 border-right  text-capitalize font-weight-light nav-link" href="#">Polska</a>
+            </li>
+            <li class="nav-item pr-2">
+              <a class="text-secondary py-0 border-right  text-capitalize font-weight-light nav-link" href="#">Romania</a>
+            </li>
+          </ul>
+        </div>
+        <ul class="nav footer-links footers">
+          <li class="nav-item pr-2">
+            <a class="pl-0 text-secondary py-0 border-right  font-weight-light nav-link" href="#">About Us</a>
+          </li>
+          <li class="nav-item pr-2">
+            <a class="pl-0 text-secondary py-0 border-right  font-weight-light nav-link" href="#">Corrections</a>
+          </li>
+          <li class="nav-item pr-2">
+            <a class="pl-0 text-secondary py-0 border-right  font-weight-light nav-link" href="#">Contact Us</a>
+          </li>
+          <li class="nav-item pr-2">
+            <a class="pl-0 text-secondary py-0 border-right  font-weight-light nav-link" href="#">Editorial
+              Guideline</a>
+          </li>
+          <li class="nav-item pr-2">
+            <a class="pl-0 text-secondary py-0 border-right  font-weight-light nav-link" href="#">Advertise</a>
+          </li>
+          <li class="nav-item pr-2">
+            <a class="pl-0 text-secondary py-0 border-right  font-weight-light nav-link" href="#">Copyright</a>
+          </li>
+          <li class="nav-item pr-2">
+            <a class="pl-0 text-secondary py-0 border-right  font-weight-light nav-link" href="#">Terms &
+              Conditions</a>
+          </li>
+          <li class="nav-item pr-2">
+            <a class="pl-0 text-secondary py-0 border-right  font-weight-light text-capitalize nav-link" href="#">Privacy Policy</a>
+          </li>
+          <li class="nav-item pr-2">
+            <a class="pl-0 text-secondary py-0 border-right  font-weight-light text-capitalize nav-link" href="#">Cookie Policy</a>
+          </li>
+          <li class="nav-item pr-2">
+            <a class="pl-0 text-secondary py-0 border-right  font-weight-light text-capitalize nav-link" href="#">Terms of Sale</a>
+          </li>
+          <li class="nav-item pr-2">
+            <a class="pl-0 text-secondary py-0 border-right  font-weight-light text-capitalize nav-link" href="#">Archieve</a>
+          </li>
+          <li class="nav-item pr-2">
+            <a class="pl-0 text-secondary py-0 border-right  font-weight-light text-capitalize nav-link" href="#">Announcements</a>
+          </li>
+          <li class="nav-item pr-2">
+            <a class="pl-0 text-secondary py-0 border-right  font-weight-light text-capitalize nav-link" href="#">Consent preferences</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+
+
+</body>
+
+</html>
